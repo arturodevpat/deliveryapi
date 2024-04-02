@@ -9,6 +9,7 @@ module.exports = {
     host: process.env.PGHOST,
     port: process.env.PGPORT,
     dialect: "postgres",
+    ssl: "require",
   },
   production: {
     username: process.env.PGUSER,
